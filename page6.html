@@ -27,6 +27,9 @@
   
   
 
+<style id="ion-mobile-safety">
+img,video,iframe{max-width:100%}
+</style>
 </head>
 <body>
   
@@ -216,6 +219,29 @@ img{width:100%;height:auto;display:block;border-radius:20px;object-fit:cover}
 .badges{display:flex;flex-wrap:wrap;gap:12px}
 .badge{font-size:13px;font-weight:700;color:#fff;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:var(--r);padding:7px 16px;white-space:nowrap;letter-spacing:.02em}
 .tgl{font-size:var(--b);font-weight:700;color:#fff;line-height:1.5;border-left:3px solid #fff;padding-left:16px}
+
+@media(max-width:768px){
+  #ionwrap{height:1100vh!important}
+  #ionscene{height:100dvh!important}
+  .ic{height:100dvh!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch!important}
+  .s{height:auto!important;min-height:100dvh!important;padding:78px 6% 24px!important;align-items:flex-start!important}
+  :root{--t:clamp(22px,7vw,32px);--b:14px;--g:20px}
+  h2{white-space:normal!important}
+  .s .row{flex-direction:column!important;gap:var(--g)!important;width:100%!important}
+  .s .row>*{flex:none!important;width:100%!important;max-width:100%!important}
+  .cards{grid-template-columns:1fr!important;gap:14px!important}
+  .card{padding:24px 20px!important}
+  .sm{width:60%!important;max-width:200px!important;margin:0 auto!important}
+  .tags{gap:6px!important;margin:18px 0!important}
+  .tag{font-size:12px!important;padding:7px 14px!important}
+  .badges{gap:8px!important}
+  .badge{font-size:12px!important;padding:6px 13px!important}
+  .bd,.bl{font-size:13px!important;padding:11px 22px!important}
+  .bml{margin-bottom:20px!important}
+  .bmi{flex-direction:column!important;gap:8px!important;padding:16px 0!important}
+  .tg{padding-top:0!important}
+  img{border-radius:14px!important}
+}
 </style>
 
 

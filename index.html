@@ -27,6 +27,9 @@
   
   
 
+<style id="ion-mobile-safety">
+img,video,iframe{max-width:100%}
+</style>
 </head>
 <body>
   
@@ -204,10 +207,22 @@
 #ionblock #c1 .ibtn,#ionblock #c3 .ibtn{background:#111!important;color:#fff!important;border-radius:50px!important;padding:13px 22px!important;font-size:15px!important;font-weight:700!important;}
 #ionblock #c2 .ibtn,#ionblock #c4 .ibtn{background:#fff!important;color:#111!important;border-radius:50px!important;padding:13px 22px!important;font-size:15px!important;font-weight:700!important;}
 
-@media(max-width:700px){
-  #ionblock .ic{flex-direction:column!important;width:95%!important;height:88vh!important;}
-  #ionblock .IL{width:100%!important;height:auto!important;padding:24px 20px!important;}
-  #ionblock .IR{width:100%!important;flex:1!important;}
+@media(max-width:768px){
+  #ionblock .iw{height:520vh!important;}
+  #ionblock .ist{height:100dvh!important;}
+  #ionblock .ic{flex-direction:column!important;width:94%!important;height:92dvh!important;border-radius:16px!important;}
+  #ionblock .IR{width:100%!important;height:38%!important;flex:none!important;order:0!important;}
+  #ionblock .IL{width:100%!important;height:62%!important;flex:none!important;padding:20px 22px!important;order:1!important;justify-content:flex-start!important;overflow-y:auto!important;}
+  #ionblock #c2 .IR,#ionblock #c4 .IR{order:0!important;}
+  #ionblock #c2 .IL,#ionblock #c4 .IL{order:1!important;}
+  #ionblock .itag{font-size:11px!important;margin-bottom:12px!important;}
+  #ionblock .irow{padding:8px 0!important;gap:10px!important;}
+  #ionblock .ibig{font-size:clamp(22px,7vw,32px)!important;}
+  #ionblock .ismall{font-size:12px!important;}
+  #ionblock .itxt{font-size:13px!important;line-height:1.6!important;margin:10px 0 12px!important;}
+  #ionblock .ihtitle{font-size:12px!important;}
+  #ionblock .iblist li{font-size:13px!important;line-height:1.6!important;}
+  #ionblock .ibtn{font-size:13px!important;padding:11px 18px!important;}
 }
 </style>
 
@@ -306,7 +321,7 @@
 					<div class="mbr-section-btn mb-4"><a class="btn btn-white-outline display-7" href="page4.html">👉 Support</a></div>
 				</div>
 			</div>
-			<div class="mbr-figure col-12 col-md-7"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/12A_MVF4pOU?rel=0&amp;amp;&amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+			<div class="mbr-figure col-12 col-md-7" style="position:relative!important;width:100%!important;padding-top:56.25%!important;height:0!important;overflow:hidden!important"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/12A_MVF4pOU?rel=0&amp;amp;&amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen style="position:absolute!important;top:0!important;left:0!important;width:100%!important;height:100%!important;max-width:100%!important"></iframe></div>
 		</div>
 	</div>
 </section>
